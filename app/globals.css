@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* color-scheme: dark */
+  }
+
+  * {
+    @apply border-border m-0 p-0;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  /* .card{
+    @apply rounded-xl rounded-tr-[3rem]
+  } */
+  .font-family1{
+    font-family: cairo;
+  }
+}
+
+/* ========================================== TAILWIND STYLES */
+@layer utilities {
+  /* =====  SHADCN OVERRIDES */
+  /* .btn {
+    @apply rounded-xl rounded-tr-3xl text-xs font-bold;
+  } */
+}
