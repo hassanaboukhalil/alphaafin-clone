@@ -9,7 +9,7 @@ const AboutUsStory = () => {
     <Section className="py-12 flex flex-col items-center bg-color-2">
       <Image src={homeRoofOrange} alt="services" width={80} />
       <HeaderSection className="pt-4 font-bold text-black">
-        We Believe You're Bright
+        We Believe You&apos;re Bright
       </HeaderSection>
       <div className="lg:grid lg:grid-cols-2 lg:gap-12 lg:py-12">
         <div className="flex flex-col pt-5 gap-4 md:pt-4">
